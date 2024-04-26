@@ -9,8 +9,6 @@
     text-decoration: none;
 }
 
-.filters{
-    list-style: none;
-    display: flex;
+form{
+    border-radius: 1px 1px 1px 1px;
 }
-

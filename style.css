@@ -10,10 +10,22 @@
     gap: 68px;
     text-decoration: none;
     list-style: none;
+    width: Hug (344px)px;
+    height: Hug (35px)px;
+    left: 1096px;
+    padding: 0px 50px 0px 50px;
+    opacity: 0px;
+
 }
 
 .logo{
-    margin: auto;
+    width: 61.09px;
+    height: 19px;
+    top: 30px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 
 form{
@@ -37,3 +49,4 @@ form{
     grid-template-rows: 207.25px 207.25px;
     gap: 30px;
 }
+

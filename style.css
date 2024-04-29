@@ -1,14 +1,39 @@
 *{  
+   max-width: 1440px;
     font-family: 'raleway', sans-serif;
 }
 
 .linkbuttons{
-    list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 68px;
     text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    margin: auto;
 }
 
 form{
-    border-radius: 1px 1px 1px 1px;
+    display:block;
+    width: Fixed(377px);
+    height: Fixed(49px);
+    border-radius: 15px;
+    gap: 24px;
+}
+
+.roomimages{
+    width: 250.33px;
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+    border: 5px 0px 0px 0px;
+}
+
+.roomcards{
+    display: grid;
+    grid-template-columns: 811px 811px 811px;
+    grid-template-rows: 207.25px 207.25px;
+    gap: 30px;
 }

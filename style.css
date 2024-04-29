@@ -29,11 +29,19 @@
 }
 
 form{
-    display:block;
-    width: Fixed(377px);
-    height: Fixed(49px);
-    border-radius: 15px;
-    gap: 24px;
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+input{
+    width: Hug (132px)px;
+height: Fixed (49px)px;
+padding: 15px 16px 15px 16px;
+gap: 10px;
+border-radius: 0px 15px 15px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
 }
 
 .roomimages{

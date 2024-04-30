@@ -1,6 +1,43 @@
-*{  
-   max-width: 1440px;
-    font-family: 'raleway', sans-serif;
+/****** General ***********/
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+input{
+    width: Hug (132px)px;
+    height: Fixed (49px)px;
+    padding: 15px 16px 15px 16px;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.filterbuttons{
+    width: Hug (758px)px;
+    height: Fixed (50px)px;
+    gap: 15px;
+    opacity: 0px;
+}
+
+.logo{
+    margin:auto;
+    width: 61.09px;
+    height: 19px;
+    top: 30px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .linkbuttons{
@@ -8,53 +45,169 @@
     flex-direction: row;
     justify-content: flex-end;
     gap: 68px;
-    text-decoration: none;
     list-style: none;
-    width: Hug (344px)px;
+    width: Hug (244px)px;
     height: Hug (35px)px;
+    opacity: 0px;
     left: 1096px;
     padding: 0px 50px 0px 50px;
-    opacity: 0px;
-
 }
 
-.logo{
-    width: 61.09px;
-    height: 19px;
-    top: 30px;
-    left: 50px;
-    gap: 0px;
-    opacity: 0px;
-
+body {
+    display: flex;
+    justify-content: center;
 }
 
-form{
-    display:flex;
-    flex-direction: row;
-    margin: auto;
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
 }
 
-input{
-    width: Hug (132px)px;
-height: Fixed (49px)px;
-padding: 15px 16px 15px 16px;
-gap: 10px;
-border-radius: 0px 15px 15px 0px;
-border: 1px 0px 0px 0px;
-opacity: 0px;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-.roomimages{
+.roomimages{  
     width: 250.33px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     border: 5px 0px 0px 0px;
 }
 
-.roomcards{
-    display: grid;
-    grid-template-columns: 811px 811px 811px;
-    grid-template-rows: 207.25px 207.25px;
-    gap: 30px;
+.section-title {
+    margin: 0;
+    font-size: 22px;
 }
 
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
+}
+
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+}
+
+/****** Populaires ***********/
+.populaires {
+    width: 32%;
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.populaires-cards img {
+    width: 33%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.populaires-cards .card-content .roomcards {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.populaires-cards .card-title .roomcards{
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.populaires-cards .card-rating .roomcards {
+    margin: 0;
+}
+
+.populaires-cards .card-rating .roomcards {
+    margin-bottom: 5px;
+}
+
+
+
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* ... */
+}

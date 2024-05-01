@@ -70,11 +70,17 @@ a {
     text-decoration: none;
 }
 
-.roomimages{  
+.room-cards img{  
     width: 250.33px;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
     border: 5px 0px 0px 0px;
+}
+
+.room-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .section-title {
@@ -146,7 +152,7 @@ a {
     border-bottom-left-radius: 20px;
 }
 
-.populaires-cards .card-content .roomcards {
+.populaires-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
@@ -155,18 +161,57 @@ a {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title .roomcards{
+.populaires-cards .card-title{
     margin-top: 10px;
     margin-bottom: 4px;
 }
 
-.populaires-cards .card-rating .roomcards {
+.populaires-cards .card-rating {
     margin: 0;
 }
 
-.populaires-cards .card-rating .roomcards {
+.populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+.activites{
+    width: Fill (1,340px)px;
+    height: Hug (559.02px)px;
+    padding: 30px 0px 0px 0px;
+    gap: 30px;
+    opacity: 0px;
+}
+
+.activites-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.activites-cards img{
+    width: 297.5px;
+    height: 380px;
+    gap: 0px;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0px;
+}
+
+.pagebottom{
+    width: Fill (1,340px)px;
+    height: Hug (163px)px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.pagebottom nav{
+    display: flex;
+   flex-direction:row;
+   justify-content: space-around;
+}
+
+.pagebottom ul{
+    list-style: none;
+}
+
 
 
 

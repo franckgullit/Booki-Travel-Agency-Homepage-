@@ -13,25 +13,26 @@
     color: var(--main-color);
 }
 
-input{
-    width: Hug (132px)px;
-    height: Fixed (49px)px;
-    padding: 15px 16px 15px 16px;
-    gap: 10px;
-    border-radius: 0px 15px 15px 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+header nav{
+    width: 1440px;
+    height: 79px;
+    gap: 0px;
+    opacity: 0px;   
+    display: flex;
+    flex-direction: row;
 }
 
-.filterbuttons{
-    width: Hug (758px)px;
-    height: Fixed (50px)px;
-    gap: 15px;
-    opacity: 0px;
+.linkbuttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linkbuttons:hover{
+    color: #0065FC;
 }
 
 .logo{
-    margin:auto;
+    margin: auto;
     width: 61.09px;
     height: 19px;
     top: 30px;
@@ -40,17 +41,179 @@ input{
     opacity: 0px;
 }
 
-.linkbuttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 68px;
-    list-style: none;
-    width: Hug (244px)px;
-    height: Hug (35px)px;
+.loc-icon-button{
+    width: 50px;
+    height: 49px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px 0px 0px 0px;
     opacity: 0px;
-    left: 1096px;
-    padding: 0px 50px 0px 50px;
+    border: 1px solid #F2F2F2
+}
+
+.searchbutton{
+    width: Hug (132px)px;
+    height: Fixed (49px)px;
+    padding: 15px 16px 15px 16px;
+    gap: 10px;
+    border-radius: 0px 15px 15px 0px;
+    opacity: 0px;
+    background-color: #0065FC;
+    border: 1px solid #0065FC
+}
+
+.search-button-txt{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fa-location-dot{
+    width: 14px;
+    height: 18px;
+    top: 15px;
+    left: 18px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+}
+input{
+    padding: 15px 16px 15px 16px;
+    gap: 0px;
+    opacity: 0px;  
+    border: 1px solid #F2F2F2
+}
+
+.search-bar{
+    width: Fixed (377px)px;
+    height: Fixed (49px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+.fa-money-bill-wave{
+    width: 22px;
+    height: 16.26px;
+    top: 2.87px;
+    gap: 0px;
+    opacity: 0px;
+}
+.economique-button{
+    width: Hug (173px)px;
+    height: Fixed (50px)px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    opacity: 0px;
+    border: 2px solid #D9D9D9;
+}
+
+.economique-button:hover{
+   background-color: #DEEBFF;
+}
+
+.fa-person{
+    width: 13.44px;
+    height: 22px;
+    left: 4px;
+    gap: 0px;
+    opacity: 0px;
+}
+.familial-button{
+    width: Hug (134px)px;
+    height: Fixed (50px)px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    opacity: 0px;
+}
+
+.familial-button:hover{
+    background-color: #DEEBFF;
+}
+
+.fa-heart{
+    width: 22px;
+    height: 18.33px;
+    top: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.romantique-button{
+    width: Hug (170px)px;
+    height: Fixed (50px)px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    opacity: 0px;
+}
+
+.romantique-button:hover{
+    background-color: #DEEBFF;
+}
+
+.fa-fire{
+    width: 18px;
+    height: 20.08px;
+    top: 1px;
+    left: 2.5px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.pepites-button{
+    width: Hug (167px)px;
+    height: Fixed (50px)px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    opacity: 0px;
+}
+
+.pepites-button:hover{
+    background-color: #DEEBFF;
+}
+
+.filter-button-txt{
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+    color: #000000;
+}
+
+.filter-bar{
+    width: Hug (758px)px;
+    height: Fixed (50px)px;
+    gap: 15px;
+    opacity: 0px;
+}
+
+.info-bar{
+width: Fill (1,340px)px;
+height: Fixed (24px)px;
+gap: 10px;
+opacity: 0px;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+text-align: left;
+}
+
+.fa-circle-info{
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 body {

@@ -60,7 +60,7 @@
     border: 1px solid #F2F2F2
 }
 
-.searchbutton{
+.search-button{
     width: Hug (132px)px;
     height: Fixed (49px)px;
     padding: 15px 16px 15px 16px;
@@ -93,7 +93,7 @@ input{
     padding: 15px 16px 15px 16px;
     gap: 0px;
     opacity: 0px;  
-    border: 1px solid #F2F2F2
+    border: 1px solid #F2F2F2;
 }
 
 .search-bar{
@@ -251,12 +251,20 @@ a {
 
 .room-cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.room-cards .card{
+    width: Fill (250.33px)px;
+    height: Hug (207.25px)px;
+    padding: 0px 0px 15px 0px;
+    gap: 4px;
+    border-radius: 20px;
+    opacity: 0px;
+}
+   
 .section-title {
-    margin: 0;
     font-size: 22px;
 }
 

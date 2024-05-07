@@ -18,19 +18,23 @@
     height: 79px;
     gap: 0px;
     opacity: 0px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav-div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .link-buttons{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    gap: 68px;
+    justify-content: space-between;
+    gap: 33px;
+    margin-right: 68px;
 }
 
 .hebergements-link:hover{
@@ -39,6 +43,10 @@
 
 .activites-link:hover{
     color: #0065FC;
+}
+
+h1{
+    margin-bottom: 0px;
 }
 
 #logo{
@@ -61,8 +69,8 @@
 }
 
 .search-button{
-    width: Hug (132px)px;
-    height: Fixed (49px)px;
+    width: 132px;
+    height: 49px;
     padding: 15px 16px 15px 16px;
     gap: 10px;
     border-radius: 0px 15px 15px 0px;
@@ -83,10 +91,6 @@
 .fa-location-dot{
     width: 14px;
     height: 18px;
-    top: 15px;
-    left: 18px;
-    gap: 0px;
-    opacity: 0px;
     color: #000000;
 }
 input{
@@ -97,10 +101,23 @@ input{
 }
 
 .search-bar{
-    width: Fixed (377px)px;
-    height: Fixed (49px)px;
+    width: 377px;
+    height: 49px;
     gap: 24px;
     opacity: 0px;
+    margin-top: 33px;
+}
+
+strong{
+    width: 54px;
+    height: 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
 }
 
 .fa-money-bill-wave{
@@ -110,14 +127,29 @@ input{
     gap: 0px;
     opacity: 0px;
 }
+    
 .economique-button{
-    width: Hug (173px)px;
-    height: Fixed (50px)px;
+    width: 173px;
+    height: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
     border-radius: 25px;
     opacity: 0px;
     border: 2px solid #D9D9D9;
+    background-color: white;
+}
+
+.economique-button-txt{
+    width: 103px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+    color: #000000;
 }
 
 .economique-button:hover{
@@ -131,14 +163,29 @@ input{
     gap: 0px;
     opacity: 0px;
 }
+
 .familial-button{
-    width: Hug (134px)px;
-    height: Fixed (50px)px;
+    width: 134px;
+    height: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     opacity: 0px;
+    background-color: white;
+}
+
+.familial-button-txt{
+    width: 64px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+    color: #000000;
 }
 
 .familial-button:hover{
@@ -154,13 +201,27 @@ input{
 }
 
 .romantique-button{
-    width: Hug (170px)px;
-    height: Fixed (50px)px;
+    width: 170px;
+    height: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     opacity: 0px;
+    background-color: white;
+}
+
+.romantique-button-txt{
+    width: 100px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: left;
+    color: #000000;
 }
 
 .romantique-button:hover{
@@ -177,20 +238,21 @@ input{
 }
 
 .pepites-button{
-    width: Hug (167px)px;
-    height: Fixed (50px)px;
+    width: 167px;
+    height: 50px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     opacity: 0px;
+    background-color: white;
 }
 
-.pepites-button:hover{
-    background-color: #DEEBFF;
-}
-
-.filter-button-txt{
+.pepites-button-txt{
+    width: 97px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 700;
@@ -199,16 +261,22 @@ input{
     color: #000000;
 }
 
+.pepites-button:hover{
+    background-color: #DEEBFF;
+}
+
 .filter-bar{
-    width: Hug (758px)px;
-    height: Fixed (50px)px;
+    width: 758px;
+    height: 50px;
     gap: 15px;
     opacity: 0px;
+    margin-top: 33px;
+    margin-bottom:33px;
 }
 
 .info-bar{
-    width: Fill (1,340px)px;
-    height: Fixed (24px)px;
+    width: 1,340px;
+    height: 24px;
     gap: 10px;
     opacity: 0px;
     font-family: Raleway;
@@ -216,6 +284,7 @@ input{
     font-weight: 400;
     line-height: 18.78px;
     text-align: left;
+    margin-bottom: 33px;
 }
 
 .fa-info{
@@ -242,29 +311,63 @@ a {
     text-decoration: none;
 }
 
-.room-cards img{  
-    width: 250.33px;
-    height: 124px;
-    border-radius: 20px 20px 0px 0px;
-    border: 5px solid #FFFFFF
-}
-
 .room-cards{
+    padding-left: 0px;
+    margin-top: 33px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .room-cards .card{
-    width: Fill (250.33px)px;
-    height: Hug (207.25px)px;
+    width: 250.33px;
+    height: 207.25px;
     padding: 0px 0px 15px 0px;
     gap: 4px;
     border-radius: 20px;
     opacity: 0px;
+    margin-bottom: 33px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
-   
+
+.room-cards img{  
+    width: 241.33px;
+    height: 124px;
+    gap: 0px;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0px;
+    border: 5px solid #FFFFFF;
+}
+
+.room-cards .card-content{
+    width: 250.33px;
+    height: 64.25px;
+    padding: 0px 15px 0px 15px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.room-cards .card-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.room-cards .card-rating{
+    width: 81px;
+    height: 13.25px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0px;
+}
+
+.room-cards .card-rating {
+    margin-bottom: 5px;
+}
+
 .section-title {
+    margin: 0;
     font-size: 22px;
 }
 
@@ -370,14 +473,15 @@ a {
 }
 
 .activites{
-    width: Fill (1,340px)px;
-    height: Hug (559.02px)px;
+    width: 1,340px;
+    height: 559.02px;
     padding: 30px 0px 0px 0px;
     gap: 30px;
     opacity: 0px;
 }
 
 .activites-cards{
+    margin-top: 33px;
     display: flex;
     justify-content: space-around;
 }
@@ -391,18 +495,24 @@ a {
 }
 
 .pagebottom{
-    width: Fill (1,340px)px;
-    height: Hug (163px)px;
-    padding: 20px 0px 0px 0px;
+    width: 1,340px;
+    height: 163px;
+    padding-top: 0px;
     gap: 0px;
     opacity: 0px;
     background: #F2F2F2;
+    margin-top: 20px;
 }
 
 .pagebottom ul{
     list-style: none;
-    padding:20px;
+    padding-left: 20px;
     gap:15px;
+    margin:0px;
+}
+
+.pagebottom li{
+    padding:5px;
 }
 
 .footer-title{
@@ -411,9 +521,9 @@ a {
 }
 
 .list-title{
-    width: Fill (446.67px)px;
-    height: Fill (163px)px;
-    padding: 20px 0px 0px 0px;
+    width: 446.67px;
+    height: 163px;
+    padding: 10px ;
     gap: 15px;
     opacity: 0px;
 }

@@ -13,23 +13,23 @@
     color: var(--main-color);
 }
 
-.pageheader{
+.pageheader {
     width: 1440px;
     height: 79px;
     gap: 0px;
-    opacity: 0px;  
+    opacity: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.nav-div{
+.nav-div {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.link-buttons{
+.link-buttons {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -37,19 +37,23 @@
     margin-right: 82px;
 }
 
-.hebergements-link:hover{
+.hebergements-link:hover {
+    padding-top:8px;
+    border-top-style: solid;
     color: #0065FC;
 }
 
-.activites-link:hover{
+.activites-link:hover {
+    padding-top:8px;
+    border-top-style: solid;
     color: #0065FC;
 }
 
-h1{
+h1 {
     margin-bottom: 0px;
 }
 
-#logo{
+#logo {
     width: 61.09px;
     height: 19px;
     top: 30px;
@@ -59,17 +63,25 @@ h1{
     margin-top: 33px;
 }
 
-.loc-icon-button{
+.search-bar {
+    width: 377px;
+    height: 49px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.loc-icon-button {
     width: 50px;
     height: 49px;
     gap: 0px;
     border-radius: 15px 0px 0px 15px;
-    border: 1px 0px 0px 0px;
+    border: 1px;
     opacity: 0px;
-    border: 1px solid #F2F2F2
+    border: 1px solid #F2F2F2;
 }
 
-.search-button{
+.search-button {
     width: 132px;
     height: 49px;
     padding: 15px 16px 15px 16px;
@@ -80,7 +92,7 @@ h1{
     border: 1px solid #0065FC;
 }
 
-.search-button-txt{
+.search-button-txt {
     width: 100px;
     height: 21px;
     gap: 0px;
@@ -93,9 +105,9 @@ h1{
     color: #FFFFFF;
 }
 
-.magnifying-glass-button{
+.magnifying-glass-button {
     width: 49px;
-    height:	49px;
+    height: 49px;
     left: 286px;
     padding: 15px 16px 15px 16px;
     gap: 10px;
@@ -103,10 +115,10 @@ h1{
     opacity: 0px;
     background-color: #0065FC;
     border: 1px solid #0065FC;
-    display:none;
+    display: none;
 }
 
-.fa-magnifying-glass{
+.fa-magnifying-glass {
     width: 17px;
     height: 17px;
     gap: 0px;
@@ -114,28 +126,29 @@ h1{
     color: #FFFFFF;
 }
 
-.fa-location-dot{
+.fa-location-dot {
     width: 14px;
     height: 18px;
     color: #000000;
 }
-input{
+
+input {
     width: 153px;
     padding: 15px 16px 15px 16px;
     gap: 0px;
-    opacity: 0px;  
+    opacity: 0px;
     border: 1px solid #F2F2F2;
 }
 
-.search-bar{
+.search-bar {
     width: 377px;
     height: 49px;
     gap: 24px;
     opacity: 0px;
-    margin-top: 33px;
+    margin-top: 0px;
 }
 
-.filters{
+.filters {
     width: 54px;
     height: 21px;
     gap: 0px;
@@ -147,163 +160,57 @@ input{
     text-align: center;
 }
 
-.fa-money-bill-wave{
-    width: 22px;
-    height: 16.26px;
-    top: 2.87px;
-    gap: 0px;
-    opacity: 0px;
-}
-    
-.economique-button{
-    width: 173px;
-    height: 50px;
-    padding: 4px 19px 4px 19px;
-    gap: 10px;
-    border-radius: 25px;
-    opacity: 0px;
-    border: 2px solid #D9D9D9;
-    background-color: white;
-}
-
-.economique-button-txt{
-    width: 103px;
-    height: 20px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 19.96px;
-    text-align: left;
-    color: #000000;
-}
-
-.economique-button:hover{
-   background-color: #DEEBFF;
-}
-
-.fa-person{
-    width: 13.44px;
-    height: 22px;
-    left: 4px;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.familial-button{
-    width: 134px;
-    height: 50px;
-    padding: 4px 19px 4px 19px;
-    gap: 10px;
-    border-radius: 25px;
-    border: 2px solid #D9D9D9;
-    opacity: 0px;
-    background-color: white;
-}
-
-.familial-button-txt{
-    width: 64px;
-    height: 20px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 19.96px;
-    text-align: left;
-    color: #000000;
-}
-
-.familial-button:hover{
-    background-color: #DEEBFF;
-}
-
-.fa-heart{
-    width: 22px;
-    height: 18.33px;
-    top: 2px;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.romantique-button{
-    width: 170px;
-    height: 50px;
-    padding: 4px 19px 4px 19px;
-    gap: 10px;
-    border-radius: 25px;
-    border: 2px solid #D9D9D9;
-    opacity: 0px;
-    background-color: white;
-}
-
-.romantique-button-txt{
-    width: 100px;
-    height: 20px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 19.96px;
-    text-align: left;
-    color: #000000;
-}
-
-.romantique-button:hover{
-    background-color: #DEEBFF;
-}
-
-.fa-fire{
-    width: 18px;
-    height: 20.08px;
-    top: 1px;
-    left: 2.5px;
-    gap: 0px;
-    opacity: 0px;
-}
-
-.pepites-button{
-    width: 167px;
-    height: 50px;
-    padding: 4px 19px 4px 19px;
-    gap: 10px;
-    border-radius: 25px;
-    border: 2px solid #D9D9D9;
-    opacity: 0px;
-    background-color: white;
-}
-
-.pepites-button-txt{
-    width: 97px;
-    height: 20px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 19.96px;
-    text-align: left;
-    color: #000000;
-}
-
-.pepites-button:hover{
-    background-color: #DEEBFF;
-}
-
-.filter-bar{
+.filter-bar {
     width: 758px;
     height: 50px;
     gap: 15px;
     opacity: 0px;
     margin-top: 33px;
-    margin-bottom:33px;
+    margin-bottom: 33px;
     display: flex;
 }
 
-.info-bar{
-    width: 1,340px;
+.filter-button{
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+    background-color: white;
+}
+
+.filter-button-txt{
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.filter-button:hover {
+    background-color: #DEEBFF;
+}
+
+.fa-money-bill-wave {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.fa-person {
+    width: 13.44px;
+    margin-right: 5px;
+}
+
+.fa-heart {
+    width: 22px;
+    margin-right:5px;
+}
+
+.fa-fire {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.info-bar {
+    width: 1, 340px;
     height: 24px;
     gap: 10px;
     opacity: 0px;
@@ -313,16 +220,21 @@ input{
     line-height: 18.78px;
     text-align: left;
     margin-bottom: 33px;
+    display: flex;
+    flex-direction: row;
 }
 
-.fa-info{
+.info-bar p{
+    margin-top:0px;
+}
+
+.fa-info {
     width: 24px;
     height: 24px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
 }
-    
 
 body {
     display: flex;
@@ -343,7 +255,7 @@ a {
     text-decoration: none;
 }
 
-.room-cards{
+.room-cards {
     padding-left: 0px;
     margin-top: 33px;
     display: flex;
@@ -351,7 +263,7 @@ a {
     flex-wrap: wrap;
 }
 
-.room-cards .card{
+.room-cards .card {
     width: 250.33px;
     height: 207.25px;
     padding: 0px 0px 15px 0px;
@@ -361,9 +273,10 @@ a {
     margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 0px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
-.room-cards img{  
+.room-cards img {
     width: 241.33px;
     height: 124px;
     gap: 0px;
@@ -372,7 +285,7 @@ a {
     border: 5px solid #FFFFFF;
 }
 
-.room-cards .card-content{
+.room-cards .card-content {
     width: 250.33px;
     height: 64.25px;
     padding: 0px 15px 0px 15px;
@@ -380,18 +293,18 @@ a {
     opacity: 0px;
 }
 
-.room-cards .card-subtitle{
+.room-cards .card-subtitle {
     margin-top: 8px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
 
-.room-cards .card-title{
+.room-cards .card-title {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
 }
-  
-.room-cards .card-rating{
+
+.room-cards .card-rating {
     width: 84px;
     height: 13.25px;
     padding: 0px;
@@ -427,16 +340,16 @@ a {
     font-weight: 700;
     line-height: 18.78px;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
 
-.card-subtitle{
+.card-subtitle {
     font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.44px;
     text-align: left;
-    color:#000000;
+    color: #000000;
 }
 
 .euro {
@@ -497,7 +410,7 @@ a {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title{
+.populaires-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
@@ -510,38 +423,39 @@ a {
     margin-bottom: 5px;
 }
 
-.activites{
-    width: 1,340px;
+.activites {
+    width: 1, 340px;
     height: 559.02px;
     padding: 30px 0px 0px 0px;
     gap: 30px;
     opacity: 0px;
 }
 
-.activites-cards{
+.activites-cards {
     margin-top: 33px;
     display: flex;
     justify-content: space-around;
 }
 
-.activites-cards .card{
-    padding:0px 0px 10px 0px;
+.activites-cards .card {
+    padding: 0px 0px 10px 0px;
 }
 
-.activites-cards .card-content{
+.activites-cards .card-content {
     margin-left: 20px;
 }
 
-.activites-cards img{
+.activites-cards img {
     width: 297.5px;
     height: 380px;
     gap: 0px;
     border-radius: 20px 20px 0px 0px;
     opacity: 0px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
-.pagebottom{
-    width: 1,340px;
+.pagebottom {
+    width: 1, 340px;
     height: 163px;
     padding-top: 0px;
     gap: 0px;
@@ -550,26 +464,26 @@ a {
     margin-top: 20px;
 }
 
-.pagebottom ul{
+.pagebottom ul {
     list-style: none;
     padding-left: 20px;
-    gap:15px;
-    margin:0px;
+    gap: 15px;
+    margin: 0px;
 }
 
-.pagebottom li{
-    padding:5px;
+.pagebottom li {
+    padding: 5px;
 }
 
-.footer-title{
+.footer-title {
     display: flex;
     justify-content: space-between;
 }
 
-.list-title{
+.list-title {
     width: 446.67px;
     height: 163px;
-    padding: 10px ;
+    padding: 10px;
     gap: 15px;
     opacity: 0px;
 }
@@ -581,27 +495,25 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .main-container{
-        width:100%;
-        max-width: 1,024px;
-        height: 2,002.52px;
+    .main-container {
+        width: 100%;
+        max-width: 1, 024px;
         gap: 30px;
         opacity: 0px;
     }
 
-    .pageheader{
+    .pageheader {
         width: 1024px;
-        height: 79px;
         padding: 0px 0.31px 0px 0px;
         gap: 0px;
         opacity: 0px;
     }
 
-    section{
+    section {
         width: 924px;
     }
 
-    .filter-bar{
+    .filter-bar {
         width: 668px;
         height: 91px;
         gap: 20px;
@@ -610,7 +522,7 @@ a {
         list-style: none;
     }
 
-    .filters{
+    .filters {
         width: 54px;
         height: 21px;
         gap: 0px;
@@ -622,7 +534,22 @@ a {
         text-align: center;
     }
 
-    .fa-money-bill-wave{
+    .filter-button{
+        height:50px;
+        padding: 4px 19px 4px 19px;
+        gap: 10px;
+        border-radius: 25px;
+        border: 2px solid #D9D9D9;
+    }
+
+    .filter-button-txt{
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .fa-money-bill-wave {
         width: 22px;
         height: 16.26px;
         top: 2.87px;
@@ -630,99 +557,23 @@ a {
         opacity: 0px;
     }
 
-    .economique-button{
-        width: 167px;
-        height: 50px;
-        padding: 4px 19px 4px 19px;
-        gap: 10px;
-        border-radius: 25px;
-        opacity: 0px;
-        border: 2px solid #D9D9D9;
-        background-color: white;
-    }
-
-    .economique-button-txt{
-        width: 97px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18.78px;
-        text-align: left;
-        color: #000000;
-    }
-
-    .fa-person{
+    .fa-person {
         width: 13.44px;
         height: 22px;
         margin-left: 4px;
         gap: 0px;
         opacity: 0px;
     }
-    
-    .familial-button{
-        width: 131px;
-        height: 50px;
-        padding: 4px 19px 4px 19px;
-        top: 41px;
-        left: 182px;
-        gap: 10px;
-        border-radius: 25px;
-        border: 2px solid #D9D9D9;
-        opacity: 0px;
-        background-color: white;
-    }
-    
-    .familial-button-txt{
-        width: 61px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18.78px;
-        text-align: left;
-        color: #000000;
-    }
-    
-    .fa-heart{
+
+    .fa-heart {
         width: 22px;
         height: 18.33px;
         top: 2px;
         gap: 0px;
         opacity: 0px;
     }
-    
-    .romantique-button{
-        width: 164px;
-        height: 50px;
-        top: 41px;
-        left: 328px;
-        padding: 4px 19px 4px 19px;
-        gap: 10px;
-        border-radius: 25px;
-        border: 2px solid #D9D9D9;
-        opacity: 0px;
-        background-color: white;
-    }
-    
-    .romantique-button-txt{
-        width: 94px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18.78px;
-        text-align: left;
-        color: #000000;
-    }
 
-    .fa-fire{
+    .fa-fire {
         width: 18px;
         height: 20.08px;
         top: 1px;
@@ -730,34 +581,8 @@ a {
         gap: 0px;
         opacity: 0px;
     }
-    
-    .pepites-button{
-        width: 161px;
-        height: 50px;
-        top: 41px;
-        left: 507px;
-        padding: 4px 19px 4px 19px;
-        gap: 10px;
-        border-radius: 25px;
-        border: 2px solid #D9D9D9;
-        opacity: 0px;
-        background-color: white;
-    }
-    
-    .pepites-button-txt{
-        width: 91px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 18.78px;
-        text-align: left;
-        color: #000000;
-    }
 
-    .room-title .section-title{
+    .room-title .section-title {
         width: 864px;
         height: 26px;
         gap: 0px;
@@ -769,11 +594,11 @@ a {
         text-align: left;
     }
 
-    .room-cards{
+    .room-cards {
         margin-bottom: 0px;
     }
 
-    .room-cards .card{
+    .room-cards .card {
         width: 268px;
         height: 207.25px;
         padding: 0px 0px 15px 0px;
@@ -784,7 +609,7 @@ a {
 
     }
 
-    .room-cards img{
+    .room-cards img {
         width: 258px;
         height: 124px;
         gap: 0px;
@@ -793,11 +618,11 @@ a {
         opacity: 0px;
     }
 
-    .populaires{
+    .populaires {
         margin-top: 0px;
     }
 
-    .populaires-title{
+    .populaires-title {
         width: 864px;
         height: 26px;
         gap: 0px;
@@ -839,7 +664,7 @@ a {
         font-size: 13px;
     }
 
-    .activites{
+    .activites {
         width: 924px;
         height: 390.02px;
         padding: 30px;
@@ -847,24 +672,24 @@ a {
         opacity: 0px;
     }
 
-    .activites-title .section-title{
+    .activites-title .section-title {
         width: 864px;
         height: 30.02px;
         gap: 0px;
         opacity: 0px;
         margin-top: 68px;
-        margin-left:5px;
+        margin-left: 5px;
         margin-bottom: 0px;
     }
 
-    .activites-cards{
+    .activites-cards {
         width: 864px;
         height: 270px;
         gap: 30px;
         opacity: 0px;
     }
 
-    .activites-cards .card{
+    .activites-cards .card {
         width: 193.5px;
         height: 270px;
         gap: 0px;
@@ -873,10 +698,10 @@ a {
         margin-top: 0px;
         color: #FFFFFF;
         box-shadow: 0px 3px 15px 0px #0000001A;
-        padding:0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
-    .activites-cards img{
+    .activites-cards img {
         width: 193.5px;
         height: 200px;
         gap: 0px;
@@ -884,7 +709,7 @@ a {
         opacity: 0px;
     }
 
-    .pagebottom{
+    .pagebottom {
         width: 924px;
         height: 163px;
         gap: 30px;
@@ -897,64 +722,91 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 
-    .main-container{
-        width:100%;
+    .main-container {
+        width: 100%;
         max-width: 767.98px;
-        height: 4,127.52px;
         gap: 30px;
         opacity: 0px;
-        margin:auto;
+        margin:0;
     }
 
-    section{
-        width:375px;
+    section {
+        width: 375px;
     }
 
-    .pageheader{
+    .pageheader {
         width: 375px;
         height: 115px;
         gap: 0px;
         opacity: 0px;
-        margin:auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    #logo{
+    #logo {
         width: 61.09px;
         height: 19px;
         gap: 0px;
         opacity: 0px;
-        margin-left: 157px;
-        margin-right: 157px;
-        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+        margin-left: 142px;
     }
 
-    .nav-bar{
+    .nav-bar {
         width: 375px;
         height: 36px;
         gap: 15px;
         opacity: 0px;
     }
 
-    .link-buttons{
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-       padding:0px 15px 0px 0px;
+    .link-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 15px 15px 0px;
     }
 
-    .hebergements-link:hover{
-        text-decoration: underline;
+    .activites-link {
+        margin-left: 86px;
+        width: 187.5px;
+        height: 19px;
+        left: 187.5px;
+        gap: 0px;
+        opacity: 0px;
     }
 
-    .activites-link:hover{
-        text-decoration: underline;
-
+    .activites-link:hover {
+        border-top-style:none;
+        border-bottom-style: solid;
+        padding-bottom: 15px;
+        color: #0065FC;
+        border-bottom-color: #0065FC;
     }
 
-    .search-bar{
+    .hebergements-link {
+        width: 187.5px;
+        height: 19px;
+        gap: 0px;
+        opacity: 0px;
+        margin-left: 20px;
+    }
+
+    .hebergements-link:hover {
+        border-top-style:none;
+        border-bottom-style: solid;
+        padding-bottom: 15px;
+        color: #0065FC;
+        border-bottom-color: #0065FC;
+    }
+
+    main {
+        width: 375px;
+        gap: 35px;
+    }
+
+    .search-bar {
         width: 335px;
         height: 49px;
         gap: 24px;
@@ -963,103 +815,69 @@ a {
         border: 1px solid #F2F2F2
     }
 
-     .search-button{
+    .search-button {
         display: none;
-     }
+    }
 
-     .magnifying-glass-button{
-            width: 49px;
-            height:	49px;
-            left: 286px;
-            padding: 15px 16px 15px 16px;
-            gap: 10px;
-            border-radius: 15px;
-            opacity: 0px;
-            background-color: #0065FC;
-            border: 1px solid #0065FC;
-     }
+    .magnifying-glass-button {
+        width: 49px;
+        height: 49px;
+        left: 286px;
+        padding: 15px 16px 15px 16px;
+        gap: 10px;
+        border-radius: 15px;
+        opacity: 0px;
+        background-color: #0065FC;
+        border: 1px solid #0065FC;
+        display: inline;
+    }
 
-     .filter-bar{
+    .filter-bar {
         width: 335px;
         height: 161px;
         gap: 20px;
-        opacity: 0px;
-     }
+    }
 
-     .filter-bar button{
+    .filter-button {
         width: 162.5px;
         height: 50px;
         padding: 4px 19px 4px 19px;
         gap: 10px;
         border-radius: 25px;
-        opacity: 0px;
         border: 2px solid #D9D9D9;
-     }
+        margin:0px 0px 15px 2px;
+    }
 
-     .fa-money-bill-wave{
+    .filter-button-txt{
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .fa-money-bill-wave {
         width: 22px;
         height: 16.26px;
         top: 2.87px;
         gap: 0px;
         opacity: 0px;
-     }
-
-    .economique-button-txt{
-        width: 85px;
-        height: 16px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 16.44px;
-        text-align: left;
-        color: #000000;
     }
 
-    .fa-person{
+    .fa-person {
         width: 13.44px;
         height: 22px;
-        margin-left: 4px;
-        gap: 5px;
-        opacity: 0px;
+        left: 4px;
     }
-    
-    .familial-button-txt{
-        width: 53px;
-        height: 16px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 16.44px;
-        text-align: left;
-        color: #000000;
-    }
-    
-    .fa-heart{
+
+    .fa-heart {
         width: 22px;
         height: 18.33px;
         top: 2px;
         gap: 0px;
         opacity: 0px;
     }
-    
-    .romantique-button-txt{
-        width: 82px;
-        height: 16px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 16.44px;
-        text-align: left;
-        color: #000000;
-    }
 
-    .fa-fire{
+    .fa-fire {
         width: 18px;
         height: 20.08px;
         top: 1px;
@@ -1067,34 +885,282 @@ a {
         gap: 0px;
         opacity: 0px;
     }
-    
-    .pepites-button-txt{
-        width: 92.5px;
-        height: 16px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 16.44px;
-        text-align: left;
-        color: #000000;
-    }
 
-    .info-bar{
+    .info-bar {
         width: 335px;
         height: 38px;
         gap: 10px;
         opacity: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+   .info-bar .fa-solid {
+        width: 24px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0px;
+        border: none;
+        margin-top: 8px;
+    }
+
+    .info-bar p{
+        width: 301px;
+        height: 38px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.78px;
+        text-align: left;
+        margin-top: 0px;
     }
 
     .hebergements-and-populaires {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+        width: 375px;
+            gap: 15px;
+            opacity: 0px;
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .populaires{
+            width: 375px;
+            padding: 30px 20px 30px 20px;
+            gap: 15px;
+            opacity: 0px;
+        }
+    
+        .populaires-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .populaires-title{
+            width: 335px;
+            height: 26px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    
+        .populaires-cards .card{
+            width: 335px;
+            height: 146px;
+            padding: 0px;
+            gap: 15px;
+            border-radius: 20px;
+            opacity: 0px;
+            padding:5px 5px 5px 5px;
+        }
+    
+        .populaires-cards img{
+            width: 111.67px;
+            height: 146px;
+            gap: 0px;
+            border-radius: 20px 0px 0px 20px;
+            border: 5px 0px 5px 5px;
+            opacity: 0px;
+        }
+    
+        .populaires-cards .card-title{
+            width: 203.33px;
+            height: 19px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18.78px;
+            text-align: left;
+        }
+    
+        .populaires-cards .card-subtitle{
+            width: 203.33px;
+            height: 16px;
+            gap: 0px;
+            opacity: 0px;   
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.44px;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+    
+        .euro{
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 16.44px;
+            text-align: left;
+        }
+    
+        .populaires-cards .card-rating{
+            width: 84px;
+            height: 12px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    
+        .hebergements{
+            width: 375px;
+            padding: 20px;
+            gap: 15px;
+            opacity: 0px;
+        }
+    
+        .hebergements .section-title{
+            width: 335px;
+            height: 26px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 25.83px;
+            text-align: left;
+        }
+    
+        .room-cards .card{
+            width: 335px;
+            height: 207.25px;
+            padding: 0px 0px 15px 0px;
+            gap: 4px;
+            border-radius: 20px;
+            opacity: 0px;
+            padding:5px 5px 5px 5px;
+        }
+    
+        .room-cards img{
+            width: 335px;
+            height: 124px;
+            gap: 0px;
+            border-radius: 20px 20px 0px 0px;
+            border: 5px;
+            opacity: 0px;
+        }
+    
+        .room-cards .card-title{
+            width: 305px;
+            height: 19px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18.78px;
+            text-align: left;
+        }
+    
+        .room-cards .card-subtitle{
+            width: 305px;
+            height: 16px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.44px;
+            text-align: left;
+        }
+    
+        .room-cards .card-rating{
+            width: 84px;
+            height: 13.25px;
+            padding: 0px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    
+        .activites{
+            width: 375px;
+            padding: 30px 0px 0px 0px;
+            gap: 30px;
+            opacity: 0px;
+        }
+      
+        .activites .section-title{
+            width: 315px;
+            height: 30.02px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 25.83px;
+            text-align: left;
+        }
+    
+        .activites-cards{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .activites-cards .card{
+            width: 315px;
+            height: 200px;
+            gap: 0px;
+            border-radius: 20px;
+            opacity: 0px;
+        }
+    
+        .activites-cards img{
+            width: 315px;
+            height: 141px;
+            gap: 0px;
+            border-radius: 20px 20px 0px 0px;
+            opacity: 0px;
+        }
+    
+        .activites-cards .card-title{
+            width: 277px;
+            height: 19px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 18.78px;
+            text-align: left;
+        }
+    
+        .pagebottom{
+            width: 375px;
+            padding: 30px ;
+            gap: 50px;
+            opacity: 0px;
+        }
+    
+        .pagebottom nav{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .pagebottom ul{
+            padding: 5px 10px 0px 0px;
+            margin: 10px;
+        }
+    
+        .pagebottom li{
+            padding:5px;
+        }
+    
+        .list-title{
+            width: 263.67px;
+            height: 123px;
+            gap: 15px;
+            opacity: 0px;   
+        }
+    
+        .list-title h3{
+            font-family: Raleway;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21.13px;
+            text-align: left;
+        }
 
-
-
-
-
+    
 }
+

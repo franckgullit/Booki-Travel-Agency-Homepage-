@@ -16,8 +16,6 @@
 .pageheader {
     width: 1440px;
     height: 79px;
-    gap: 0px;
-    opacity: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,26 +56,20 @@ h1 {
     height: 19px;
     top: 30px;
     left: 50px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 33px;
 }
 
 .search-bar {
     width: 377px;
     height: 49px;
-    gap: 0px;
-    border-radius: 15px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 15px;
 }
 
 .loc-icon-button {
     width: 50px;
     height: 49px;
-    gap: 0px;
     border-radius: 15px 0px 0px 15px;
     border: 1px;
-    opacity: 0px;
     border: 1px solid #F2F2F2;
 }
 
@@ -85,19 +77,12 @@ h1 {
     width: 132px;
     height: 49px;
     padding: 15px 16px 15px 16px;
-    gap: 10px;
     border-radius: 0px 15px 15px 0px;
-    opacity: 0px;
     background-color: #0065FC;
     border: 1px solid #0065FC;
 }
 
 .search-button-txt {
-    width: 100px;
-    height: 21px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -106,23 +91,14 @@ h1 {
 }
 
 .magnifying-glass-button {
-    width: 49px;
-    height: 49px;
-    left: 286px;
     padding: 15px 16px 15px 16px;
-    gap: 10px;
     border-radius: 15px;
-    opacity: 0px;
     background-color: #0065FC;
     border: 1px solid #0065FC;
-    display: none;
+    display:none;
 }
 
 .fa-magnifying-glass {
-    width: 17px;
-    height: 17px;
-    gap: 0px;
-    opacity: 0px;
     color: #FFFFFF;
 }
 
@@ -135,25 +111,17 @@ h1 {
 input {
     width: 153px;
     padding: 15px 16px 15px 16px;
-    gap: 0px;
-    opacity: 0px;
     border: 1px solid #F2F2F2;
 }
 
 .search-bar {
-    width: 377px;
-    height: 49px;
-    gap: 24px;
-    opacity: 0px;
     margin-top: 0px;
+    display: flex;
 }
 
 .filters {
     width: 54px;
     height: 21px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -164,7 +132,6 @@ input {
     width: 758px;
     height: 50px;
     gap: 15px;
-    opacity: 0px;
     margin-top: 33px;
     margin-bottom: 33px;
     display: flex;
@@ -172,14 +139,12 @@ input {
 
 .filter-button{
     padding: 4px 19px 4px 19px;
-    gap: 10px;
     border-radius: 25px;
     border: 2px solid #D9D9D9;
     background-color: white;
 }
 
 .filter-button-txt{
-    font-family: Raleway;
     font-size: 17px;
     font-weight: 700;
     text-align: left;
@@ -213,8 +178,6 @@ input {
     width: 1, 340px;
     height: 24px;
     gap: 10px;
-    opacity: 0px;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.78px;
@@ -231,9 +194,7 @@ input {
 .fa-info {
     width: 24px;
     height: 24px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
+    border: 1px;
 }
 
 body {
@@ -267,9 +228,7 @@ a {
     width: 250.33px;
     height: 207.25px;
     padding: 0px 0px 15px 0px;
-    gap: 4px;
     border-radius: 20px;
-    opacity: 0px;
     margin-bottom: 20px;
     margin-right: 5px;
     margin-left: 0px;
@@ -279,9 +238,7 @@ a {
 .room-cards img {
     width: 241.33px;
     height: 124px;
-    gap: 0px;
     border-radius: 20px 20px 0px 0px;
-    opacity: 0px;
     border: 5px solid #FFFFFF;
 }
 
@@ -290,7 +247,6 @@ a {
     height: 64.25px;
     padding: 0px 15px 0px 15px;
     gap: 8px;
-    opacity: 0px;
 }
 
 .room-cards .card-subtitle {
@@ -308,8 +264,6 @@ a {
     width: 84px;
     height: 13.25px;
     padding: 0px;
-    gap: 0px;
-    opacity: 0px;
     margin-bottom: 5px;
 }
 
@@ -335,7 +289,6 @@ a {
 
 .card-title {
     font-size: 16px;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
     line-height: 18.78px;
@@ -344,7 +297,6 @@ a {
 }
 
 .card-subtitle {
-    font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.44px;
@@ -427,8 +379,6 @@ a {
     width: 1, 340px;
     height: 559.02px;
     padding: 30px 0px 0px 0px;
-    gap: 30px;
-    opacity: 0px;
 }
 
 .activites-cards {
@@ -455,11 +405,9 @@ a {
 }
 
 .pagebottom {
-    width: 1, 340px;
+    width: 1340px;
     height: 163px;
     padding-top: 0px;
-    gap: 0px;
-    opacity: 0px;
     background: #F2F2F2;
     margin-top: 20px;
 }
@@ -484,8 +432,6 @@ a {
     width: 446.67px;
     height: 163px;
     padding: 10px;
-    gap: 15px;
-    opacity: 0px;
 }
 
 
@@ -498,15 +444,11 @@ a {
     .main-container {
         width: 100%;
         max-width: 1, 024px;
-        gap: 30px;
-        opacity: 0px;
     }
 
     .pageheader {
         width: 1024px;
         padding: 0px 0.31px 0px 0px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     section {
@@ -516,18 +458,12 @@ a {
     .filter-bar {
         width: 668px;
         height: 91px;
-        gap: 20px;
-        opacity: 0px;
         display: list-item;
         list-style: none;
     }
 
     .filters {
         width: 54px;
-        height: 21px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 21.13px;
@@ -537,13 +473,11 @@ a {
     .filter-button{
         height:50px;
         padding: 4px 19px 4px 19px;
-        gap: 10px;
         border-radius: 25px;
         border: 2px solid #D9D9D9;
     }
 
     .filter-button-txt{
-        font-family: Raleway;
         font-size: 16px;
         font-weight: 700;
         text-align: left;
@@ -552,42 +486,27 @@ a {
     .fa-money-bill-wave {
         width: 22px;
         height: 16.26px;
-        top: 2.87px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .fa-person {
         width: 13.44px;
         height: 22px;
         margin-left: 4px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .fa-heart {
         width: 22px;
         height: 18.33px;
-        top: 2px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .fa-fire {
         width: 18px;
         height: 20.08px;
-        top: 1px;
-        left: 2.5px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .room-title .section-title {
         width: 864px;
-        height: 26px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
+        margin-left: 5px;
         font-size: 22px;
         font-weight: 700;
         line-height: 25.83px;
@@ -602,20 +521,15 @@ a {
         width: 268px;
         height: 207.25px;
         padding: 0px 0px 15px 0px;
-        gap: 4px;
         border-radius: 20px;
-        opacity: 0px;
         box-shadow: 0px 3px 15px 0px #0000001A;
-
     }
 
     .room-cards img {
         width: 258px;
         height: 124px;
-        gap: 0px;
         border-radius: 20px 20px 0px 0px;
         border: 5px solid #FFFFFF;
-        opacity: 0px;
     }
 
     .populaires {
@@ -624,17 +538,12 @@ a {
 
     .populaires-title {
         width: 864px;
-        height: 26px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .hebergements-and-populaires {
         flex-direction: column;
         width: 924px;
         height: 913.5px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .hebergements {
@@ -668,15 +577,11 @@ a {
         width: 924px;
         height: 390.02px;
         padding: 30px;
-        gap: 30px;
-        opacity: 0px;
     }
 
     .activites-title .section-title {
         width: 864px;
         height: 30.02px;
-        gap: 0px;
-        opacity: 0px;
         margin-top: 68px;
         margin-left: 5px;
         margin-bottom: 0px;
@@ -686,14 +591,11 @@ a {
         width: 864px;
         height: 270px;
         gap: 30px;
-        opacity: 0px;
     }
 
     .activites-cards .card {
         width: 193.5px;
         height: 270px;
-        gap: 0px;
-        opacity: 0px;
         border-radius: 20px;
         margin-top: 0px;
         color: #FFFFFF;
@@ -704,16 +606,12 @@ a {
     .activites-cards img {
         width: 193.5px;
         height: 200px;
-        gap: 0px;
         border-radius: 20px 20px 0px 0px;
-        opacity: 0px;
     }
 
     .pagebottom {
         width: 924px;
         height: 163px;
-        gap: 30px;
-        opacity: 0px;
     }
 
 }
@@ -725,8 +623,6 @@ a {
     .main-container {
         width: 100%;
         max-width: 767.98px;
-        gap: 30px;
-        opacity: 0px;
         margin:0;
     }
 
@@ -737,31 +633,19 @@ a {
     .pageheader {
         width: 375px;
         height: 115px;
-        gap: 0px;
-        opacity: 0px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
     #logo {
-        width: 61.09px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
         display: flex;
         justify-content: center;
         margin-left: 142px;
     }
 
-    .nav-bar {
-        width: 375px;
-        height: 36px;
-        gap: 15px;
-        opacity: 0px;
-    }
-
     .link-buttons {
+        gap:10px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -770,11 +654,6 @@ a {
 
     .activites-link {
         margin-left: 86px;
-        width: 187.5px;
-        height: 19px;
-        left: 187.5px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .activites-link:hover {
@@ -786,10 +665,6 @@ a {
     }
 
     .hebergements-link {
-        width: 187.5px;
-        height: 19px;
-        gap: 0px;
-        opacity: 0px;
         margin-left: 20px;
     }
 
@@ -801,17 +676,11 @@ a {
         border-bottom-color: #0065FC;
     }
 
-    main {
-        width: 375px;
-        gap: 35px;
-    }
-
     .search-bar {
         width: 335px;
         height: 49px;
         gap: 24px;
         border-radius: 15px;
-        opacity: 0px;
         border: 1px solid #F2F2F2
     }
 
@@ -824,9 +693,7 @@ a {
         height: 49px;
         left: 286px;
         padding: 15px 16px 15px 16px;
-        gap: 10px;
         border-radius: 15px;
-        opacity: 0px;
         background-color: #0065FC;
         border: 1px solid #0065FC;
         display: inline;
@@ -835,21 +702,18 @@ a {
     .filter-bar {
         width: 335px;
         height: 161px;
-        gap: 20px;
     }
 
     .filter-button {
         width: 162.5px;
         height: 50px;
         padding: 4px 19px 4px 19px;
-        gap: 10px;
         border-radius: 25px;
         border: 2px solid #D9D9D9;
         margin:0px 0px 15px 2px;
     }
 
     .filter-button-txt{
-        font-family: Raleway;
         font-size: 14px;
         font-weight: 700;
         text-align: left;
@@ -859,8 +723,6 @@ a {
         width: 22px;
         height: 16.26px;
         top: 2.87px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .fa-person {
@@ -872,25 +734,15 @@ a {
     .fa-heart {
         width: 22px;
         height: 18.33px;
-        top: 2px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .fa-fire {
         width: 18px;
         height: 20.08px;
-        top: 1px;
-        left: 2.5px;
-        gap: 0px;
-        opacity: 0px;
     }
 
     .info-bar {
         width: 335px;
-        height: 38px;
-        gap: 10px;
-        opacity: 0px;
         display: flex;
         flex-direction: row;
     }
@@ -898,18 +750,12 @@ a {
    .info-bar .fa-solid {
         width: 24px;
         height: 24px;
-        gap: 0px;
-        opacity: 0px;
         border: none;
         margin-top: 8px;
     }
 
     .info-bar p{
         width: 301px;
-        height: 38px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Raleway;
         font-size: 16px;
         font-weight: 400;
         line-height: 18.78px;
@@ -919,247 +765,187 @@ a {
 
     .hebergements-and-populaires {
         width: 375px;
-            gap: 15px;
-            opacity: 0px;
-            display: flex;
-            flex-direction: column-reverse;
-        }
+    }
     
-        .populaires{
-            width: 375px;
-            padding: 30px 20px 30px 20px;
-            gap: 15px;
-            opacity: 0px;
-        }
+    .populaires{
+        width: 375px;
+        padding: 30px 20px 30px 20px;
+    }
     
-        .populaires-cards{
-            display: flex;
-            flex-direction: column;
-        }
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+    }
     
-        .populaires-title{
-            width: 335px;
-            height: 26px;
-            gap: 0px;
-            opacity: 0px;
-        }
+    .populaires-title{
+        width: 335px;
+        height: 26px;
+    }
     
-        .populaires-cards .card{
-            width: 335px;
-            height: 146px;
-            padding: 0px;
-            gap: 15px;
-            border-radius: 20px;
-            opacity: 0px;
-            padding:5px 5px 5px 5px;
-        }
+    .populaires-cards .card{
+        width: 335px;
+        padding:3px 3px 3px 3px;
+        border-radius: 20px;
+    }
     
-        .populaires-cards img{
-            width: 111.67px;
-            height: 146px;
-            gap: 0px;
-            border-radius: 20px 0px 0px 20px;
-            border: 5px 0px 5px 5px;
-            opacity: 0px;
-        }
+    .populaires-cards img{
+        width: 111.67px;
+        border-radius: 20px 0px 0px 20px;
+        border: 5px 0px 5px 5px;
+    }
     
-        .populaires-cards .card-title{
-            width: 203.33px;
-            height: 19px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 18.78px;
-            text-align: left;
-        }
+    .populaires-cards .card-title{
+        width: 203.33px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.78px;
+        text-align: left;
+    }
     
-        .populaires-cards .card-subtitle{
-            width: 203.33px;
-            height: 16px;
-            gap: 0px;
-            opacity: 0px;   
-            font-family: Raleway;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 16.44px;
-            text-align: left;
-            margin-bottom: 5px;
-        }
+    .populaires-cards .card-subtitle{
+        width: 203.33px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
     
-        .euro{
-            font-family: Raleway;
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 16.44px;
-            text-align: left;
-        }
+    .euro{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.44px;
+        text-align: left;
+    }
     
-        .populaires-cards .card-rating{
-            width: 84px;
-            height: 12px;
-            gap: 0px;
-            opacity: 0px;
-        }
+    .populaires-cards .card-rating{
+        width: 84px;
+        height: 12px;
+    }
     
-        .hebergements{
-            width: 375px;
-            padding: 20px;
-            gap: 15px;
-            opacity: 0px;
-        }
+    .hebergements{
+        width: 375px;
+        padding: 20px;
+    }
     
-        .hebergements .section-title{
-            width: 335px;
-            height: 26px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 22px;
-            font-weight: 700;
-            line-height: 25.83px;
-            text-align: left;
-        }
+    .hebergements .section-title{
+        width: 335px;
+        height: 26px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: left;
+    }
     
-        .room-cards .card{
-            width: 335px;
-            height: 207.25px;
-            padding: 0px 0px 15px 0px;
-            gap: 4px;
-            border-radius: 20px;
-            opacity: 0px;
-            padding:5px 5px 5px 5px;
-        }
+    .room-cards .card{
+        width: 335px;
+        padding: 0px 0px 15px 0px;
+        border-radius: 20px;
+    }
     
-        .room-cards img{
-            width: 335px;
-            height: 124px;
-            gap: 0px;
-            border-radius: 20px 20px 0px 0px;
-            border: 5px;
-            opacity: 0px;
-        }
+    .room-cards img{
+        width: 325px;
+        border-radius: 20px 20px 0px 0px;
+        border: 5px;
+        padding:5px 0px 0px 5px;
+    }
     
-        .room-cards .card-title{
-            width: 305px;
-            height: 19px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 18.78px;
-            text-align: left;
-        }
+    .room-cards .card-title{
+        width: 305px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.78px;
+        text-align: left;
+    }
     
-        .room-cards .card-subtitle{
-            width: 305px;
-            height: 16px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 16.44px;
-            text-align: left;
-        }
+    .room-cards .card-subtitle{
+        width: 305px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+        text-align: left;
+    }
     
-        .room-cards .card-rating{
-            width: 84px;
-            height: 13.25px;
-            padding: 0px;
-            gap: 0px;
-            opacity: 0px;
-        }
+    .room-cards .card-rating{
+        width: 84px;
+        height: 13.25px;
+        padding: 0px;
+    }
     
-        .activites{
-            width: 375px;
-            padding: 30px 0px 0px 0px;
-            gap: 30px;
-            opacity: 0px;
-        }
+    .activites{
+        width: 375px;
+        padding: 30px 0px 0px 0px;
+    }
       
-        .activites .section-title{
-            width: 315px;
-            height: 30.02px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 22px;
-            font-weight: 700;
-            line-height: 25.83px;
-            text-align: left;
-        }
+    .activites .section-title{
+        width: 315px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: left;
+    }
     
-        .activites-cards{
-            display: flex;
-            flex-direction: column;
-        }
+    .activites-cards{
+        display: flex;
+        flex-direction: column;
+    }
     
-        .activites-cards .card{
-            width: 315px;
-            height: 200px;
-            gap: 0px;
-            border-radius: 20px;
-            opacity: 0px;
-        }
+    .activites-cards .card{
+        width: 315px;
+        height: 200px;
+        border-radius: 20px;   
+    }
     
-        .activites-cards img{
-            width: 315px;
-            height: 141px;
-            gap: 0px;
-            border-radius: 20px 20px 0px 0px;
-            opacity: 0px;
-        }
+    .activites-cards img{
+        width: 315px;
+        height: 141px;
+        border-radius: 20px 20px 0px 0px;
+    }
     
-        .activites-cards .card-title{
-            width: 277px;
-            height: 19px;
-            gap: 0px;
-            opacity: 0px;
-            font-family: Raleway;
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 18.78px;
-            text-align: left;
-        }
+    .activites-cards .card-title{
+        width: 277px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.78px;
+        text-align: left;
+    }
     
-        .pagebottom{
-            width: 375px;
-            padding: 30px ;
-            gap: 50px;
-            opacity: 0px;
-        }
+    .pagebottom{
+        position: fixed;
+        width: 375px;
+        padding: 30px ;
+    }
     
-        .pagebottom nav{
-            display: flex;
-            flex-direction: column;
-        }
+    .pagebottom nav{
+        display: flex;
+        flex-direction: column;
+    }
     
-        .pagebottom ul{
-            padding: 5px 10px 0px 0px;
-            margin: 10px;
-        }
+    .pagebottom ul{
+        padding: 5px 10px 0px 0px;
+        margin: 10px;
+    }
     
-        .pagebottom li{
-            padding:5px;
-        }
+    .pagebottom li{
+        padding:5px;
+    }
     
-        .list-title{
-            width: 263.67px;
-            height: 123px;
-            gap: 15px;
-            opacity: 0px;   
-        }
+    .list-title{
+        width: 263.67px;
+        height: 123px;     
+    }
     
-        .list-title h3{
-            font-family: Raleway;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 21.13px;
-            text-align: left;
-        }
+    .list-title h3{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.13px;
+        text-align: left;
+    }
 
     
 }

@@ -768,10 +768,14 @@ a {
         width: 375px;
     }
 
+    .populaires{
+        border-radius: 0 !important;
+    }
+
     .populaires-title{
         width: 335px;
         margin-left: -10px;
-        margin-bottom: 2px;
+        margin-bottom: 10px;
     }
 
     .populaires-cards{
@@ -807,6 +811,11 @@ a {
         line-height: 16.44px;
         text-align: left;
         margin-top: 0px;
+    }
+
+    .hebergements{
+        background-color: #FFFFFF !important;
+        border-radius: 0 !important;
     }
 
     .room-title .section-title{
@@ -894,6 +903,7 @@ a {
         height:461px;
         margin-top: 830px;
         margin-left: 0px;
+        padding-right: 112px;
     }
 
     .footer-title{

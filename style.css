@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+   
 }
 
 :root {
@@ -464,15 +465,21 @@ body {
     .main-container {
         width: 100%;
         max-width: 1024px;
+       justify-content: center;
     }
 
     .pageheader {
         width: 1024px;
-        padding: 0px 0.31px 0px 0px;
+        padding: 0px;
     }
 
-    section {
-        width: 924px;
+    .link-buttons{
+        margin-right: 112px;
+    }
+
+
+    section{
+        width: 1024px;
     }
 
     .filter-bar {
@@ -643,7 +650,6 @@ body {
     .main-container {
         width: 100%;
         max-width: 767.98px;
-        margin: 0px;
     }
 
     section {
@@ -704,7 +710,7 @@ body {
     .search-bar {
         width: 335px;
         border-radius: 15px;
-        border: 1px solid #F2F2F2
+        border: 1px solid #F2F2F2;
     }
 
     .search-button {

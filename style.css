@@ -466,6 +466,8 @@ body {
         width: 100%;
         max-width: 1024px;
        justify-content: center;
+       overflow-y: hidden;
+       overflow-x: hidden;
     }
 
     .pageheader {

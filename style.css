@@ -17,6 +17,7 @@
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
     margin-left: -21px;
@@ -28,7 +29,6 @@ a {
 }
 
 .pageheader {
-    width: 1440px;
     height: 79px;
     display: flex;
     flex-direction: row;
@@ -45,8 +45,8 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 33px;
-    margin-right: 82px;
+    gap: 68px;
+    margin-right: 0px;
 }
 
 .hebergements-link:hover {
@@ -100,8 +100,6 @@ h1 {
 }
 
 .search-button {
-    width: 132px;
-    height: 49px;
     padding: 15px 16px 15px 16px;
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
@@ -239,8 +237,8 @@ body {
 }
 
 .room-cards .card {
-    width: 250.33px;
-    padding: 0px 0px 15px 0px;
+    width: 30%;
+    padding: 4px;
     border-radius: 20px;
     margin-bottom: 33px;
     margin-right: 5px;
@@ -249,15 +247,13 @@ body {
 }
 
 .room-cards img {
-    width: 241.33px;
+    width: 100%;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
-    border: 5px solid #FFFFFF;
 }
 
 .room-cards .card-content {
-    width: 250.33px;
-    height: 64.25px;
+    width: 100%;
     padding: 0px 15px 0px 15px;
     gap: 8px;
 }
@@ -329,7 +325,7 @@ body {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    width: 1340px;
+    
 }
 
 .hebergements-and-populaires section {
@@ -391,15 +387,18 @@ body {
 }
 
 .activites {
-    width: 1340px;
-    height: 559.02px;
+    width: 100%;
     padding: 30px 0px 0px 0px;
+    margin-bottom: 68px;
+    margin-left: 20px;
 }
 
 .activites-cards {
     margin-top: 33px;
+    width: 22%;
+    gap: 30px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .activites-cards .card {
@@ -418,8 +417,7 @@ body {
 }
 
 .pagebottom {
-    width: 1340px;
-    height: 171px;
+    width: 100%;
     padding-top: 0px;
     background: #F2F2F2;
     margin-top: 20px;
@@ -445,11 +443,10 @@ body {
 .footer-title {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .list-title {
-    width: 446.67px;
+    width: 30%;
     padding: 10px;
     margin-top: -33px;
 }
@@ -465,23 +462,16 @@ body {
     .main-container {
         width: 100%;
         max-width: 1024px;
-       justify-content: center;
-       overflow-y: hidden;
-       overflow-x: hidden;
+        justify-content: center;
     }
 
     .pageheader {
-        width: 1024px;
+        width: 100%;
         padding: 0px;
     }
 
     .link-buttons{
-        margin-right: 112px;
-    }
-
-
-    section{
-        width: 1024px;
+        margin-right: 0px;
     }
 
     .filter-bar {
@@ -534,7 +524,7 @@ body {
     }
 
     .room-title .section-title {
-        width: 864px;
+        width: 100%;
         margin-left: 5px;
         font-size: 22px;
         font-weight: 700;
@@ -546,33 +536,17 @@ body {
         margin-bottom: 0px;
     }
 
-    .room-cards .card {
-        width: 268px;
-        height: 207.25px;
-        padding: 0px 0px 15px 0px;
-        border-radius: 20px;
-        box-shadow: 0px 3px 15px 0px #0000001A;
-    }
-
-    .room-cards img {
-        width: 258px;
-        height: 124px;
-        border-radius: 20px 20px 0px 0px;
-        border: 5px solid #FFFFFF;
-    }
-
     .populaires {
         margin-top: 0px;
     }
 
     .populaires-title {
-        width: 864px;
+        width: 100%;
     }
 
     .hebergements-and-populaires {
         flex-direction: column;
-        width: 924px;
-        height: 913.5px;
+        width: 100%;
     }
 
     .hebergements {
@@ -603,23 +577,18 @@ body {
     }
 
     .activites {
-        width: 924px;
-        height: 390.02px;
-        padding: 30px;
+        width: 100%;
     }
 
     .activites-title .section-title {
-        width: 864px;
-        height: 30.02px;
-        margin-top: 68px;
-        margin-left: 5px;
-        margin-bottom: 0px;
+        width: 100%;
+        margin-top: 33px;
+        margin-left: 20px;
     }
 
     .activites-cards {
-        width: 864px;
+        width: 100%;
         height: 270px;
-        gap: 30px;
     }
 
     .activites-cards .card {
@@ -639,8 +608,7 @@ body {
     }
 
     .pagebottom {
-        width: 924px;
-        height: 163px;
+        width: 100%;
     }
 
 }
@@ -709,6 +677,7 @@ body {
     .search-bar{
         margin-top: 33px;
     }
+
     .search-bar {
         width: 335px;
         border-radius: 15px;
@@ -730,7 +699,7 @@ body {
 
     .filter-bar {
         width: 335px;
-        height: 161px;
+        margin-bottom: 33px;
     }
 
     .filter-button {
@@ -773,6 +742,7 @@ body {
         width: 335px;
         display: flex;
         flex-direction: row;
+        margin-top: 86px;
     }
 
    .info-bar .fa-solid {
@@ -781,19 +751,17 @@ body {
     }
 
     .info-bar p{
-        width: 301px;
         font-size: 16px;
         font-weight: 400;
         line-height: 18.78px;
         text-align: left;
-        margin-top: 0px;
     }
 
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 1268px;
         width: 375px;
+        margin-top: -68px;
     }
 
     .populaires{
@@ -822,7 +790,6 @@ body {
     .populaires-cards img{
         width: 111.67px;
         border-radius: 20px 0px 0px 20px;
-        
         padding:5px;
     }
 
@@ -891,8 +858,11 @@ body {
         text-align: left;
     }
 
+    .activites{
+        margin-left: 15px;
+    }
+
     .activites-title{
-        width: 315px;
         font-size: 22px;
         font-weight: 700;
         line-height: 25.83px;
@@ -904,18 +874,19 @@ body {
     .activites-cards{
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
-        margin-left: -10px;
+        margin-top: 33px;
     }
 
     .activites-cards .card{
         width: 315px;
+        height: 200px;
         border-radius: 20px;
-        margin: -7px;
+        margin: 5px;
     }
 
     .activites-cards img{
         width: 315px;
+        height: 141px;
         border-radius: 20px 20px 0px 0px;
     }
 
@@ -928,8 +899,7 @@ body {
 
     .pagebottom{
         width: 375px;
-        height:461px;
-        margin-top: 830px;
+        margin-top: 725px;
         margin-left: 0px; 
     }
 

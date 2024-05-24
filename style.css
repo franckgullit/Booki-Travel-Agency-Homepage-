@@ -102,6 +102,7 @@ h1 {
 }
 
 .search-button {
+    width: 132px;
     padding: 15px 16px 15px 16px;
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
@@ -135,7 +136,7 @@ h1 {
 }
 
 input {
-    width: 153px;
+    width: 195px;
     padding: 15px 16px 15px 16px;
     border: 1px solid #F2F2F2;
 }
@@ -668,9 +669,13 @@ body {
 
     .search-bar {
         margin-top: 33px;
-        width: 70%;
+        width: 335px;
         border-radius: 15px;
         border: 1px solid #F2F2F2;
+    }
+
+    input{
+        width: 236px;
     }
 
     .search-button {

@@ -145,7 +145,7 @@ a {
 }
 
 input {
-    width: 186px;
+    width: 153px;
     padding: 15px 16px 15px 16px;
     border: 1px solid #F2F2F2;
 }
@@ -184,7 +184,7 @@ input {
 }
 
 .filter-button i{
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .filter-button:hover {
@@ -193,7 +193,6 @@ input {
 
 .fa-money-bill-wave{
     width: 22px;
-    margin-right: 5px;
 }
 
 .fa-person{
@@ -202,12 +201,10 @@ input {
 
 .fa-heart {
     width: 22px;
-    margin-right:5px;
 }
 
 .fa-fire {
     width: 18px;
-    margin-right: 5px;
 }
 
 .info-bar {
